@@ -11,65 +11,66 @@ print(solution)
 # 5. Операции с данными
 
 # Задача 1
-grams = 12345
-kilograms = grams // 1000
-full_kilograms = f"В {grams} граммах содержится {kilograms} полных килограмм."
+GRAMS = 12345
+kilograms = GRAMS // 1000
+full_kilograms = f"В {GRAMS} граммах содержится {kilograms} полных килограмм."
 print(full_kilograms)
 
 # Задача 2
-number = 1234
-last_digit = number - 1230
-last_digit = number % 10
-solution = f"Последняя цифра числа {number}: {last_digit}"
+SOME_NUMBER = 1234
+last_digit = SOME_NUMBER - 1230
+last_digit = SOME_NUMBER % 10
+solution = f"Последняя цифра числа {SOME_NUMBER}: {last_digit}"
 print(solution)
 
 # Задача 3
-number1 = 14
-print(number1 > 0 and number1 % 2 == 0)
-number2 = -4
-print(number2 > 0 and number2 % 2 == 0)
-number3 = 15
-print(number3 > 0 and number3 % 2 == 0)
+SOME_NUMBER1 = 14
+print(SOME_NUMBER1 > 0 and SOME_NUMBER1 % 2 == 0)
+SOME_NUMBER2 = -4
+print(SOME_NUMBER2 > 0 and SOME_NUMBER2 % 2 == 0)
+SOME_NUMBER3 = 15
+print(SOME_NUMBER3 > 0 and SOME_NUMBER3 % 2 == 0)
 
-if number1 > 0 and number1 % 2 == 0:
-    print(f"Число {number1} является положительным и четным")
+if SOME_NUMBER1 > 0 and SOME_NUMBER1 % 2 == 0:
+    print(f"Число {SOME_NUMBER1} является положительным и четным")
 else:
-    print(f"Число {number1} не подходит под условия")
-if number2 > 0 and number2 % 2 == 0:
-    print(f"Число {number2} является положительным и четным")
+    print(f"Число {SOME_NUMBER1} не подходит под условия")
+if SOME_NUMBER2 > 0 and SOME_NUMBER2 % 2 == 0:
+    print(f"Число {SOME_NUMBER2} является положительным и четным")
 else:
-    print(f"Число {number2} не подходит под условия")
-if number3 > 0 and number3 % 2 == 0:
-    print(f"Число {number3} является положительным и четным")
+    print(f"Число {SOME_NUMBER2} не подходит под условия")
+if SOME_NUMBER3 > 0 and SOME_NUMBER3 % 2 == 0:
+    print(f"Число {SOME_NUMBER3} является положительным и четным")
 else:
-    print(f"Число {number3} не подходит под условия")
+    print(f"Число {SOME_NUMBER3} не подходит под условия")
 
 # Задача 4
-num1 = 150
-num2 = 50
-num3 = -20
-if num1 >= 0 and num1 <= 100:
-    print(f"Число {num1} находится в пределах диапазона от 0 до 100")
+SOME_NUMBER1 = 150
+SOME_NUMBER2 = 50
+SOME_NUMBER3 = -20
+if SOME_NUMBER1 >= 0 and SOME_NUMBER1 <= 100:
+    print(f"Число {SOME_NUMBER1} находится в пределах диапазона от 0 до 100")
 else:
-    print(f"Число {num1} выходит за пределы диапазона от 0 до 100")
-if num2 >= 0 and num2 <= 100:
-    print(f"Число {num2} находится в пределах диапазона от 0 до 100")
+    print(f"Число {SOME_NUMBER1} выходит за пределы диапазона от 0 до 100")
+if SOME_NUMBER2 >= 0 and SOME_NUMBER2 <= 100:
+    print(f"Число {SOME_NUMBER2} находится в пределах диапазона от 0 до 100")
 else:
-    print(f"Число {num2} выходит за пределы диапазона от 0 до 100")
-if num3 >= 0 and num3 <= 100:
-    print(f"Число {num3} находится в пределах диапазона от 0 до 100")
+    print(f"Число {SOME_NUMBER2} выходит за пределы диапазона от 0 до 100")
+if SOME_NUMBER3 >= 0 and SOME_NUMBER3 <= 100:
+    print(f"Число {SOME_NUMBER3} находится в пределах диапазона от 0 до 100")
 else:
-    print(f"Число {num3} выходит за пределы диапазона от 0 до 100")
+    print(f"Число {SOME_NUMBER3} выходит за пределы диапазона от 0 до 100")
 
 # Задача 5
-num1 = 10
-num2 = 9
-if num1 % 3 == 0:
-    print(f"Число {num1} кратно 3")
+SOME_NUMBER1 = 10
+SOME_NUMBER2 = 9
+if SOME_NUMBER1 % 3 == 0:
+    print(f"Число {SOME_NUMBER1} кратно 3")
 else:
-    print(f"Число {num1} не кратно 3")
-if num2 % 3 == 0:
-    print(f"Число {num2} кратно 3")
+    print(f"Число {SOME_NUMBER1} не кратно 3")
+if SOME_NUMBER2 % 3 == 0:
+    print(f"Число {SOME_NUMBER2} кратно 3")
 else:
-    print(f"Число {num2} не кратно 3")
+    print(f"Число {SOME_NUMBER2} не кратно 3")
 
+# 6. Коллекции данных
