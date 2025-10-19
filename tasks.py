@@ -74,3 +74,116 @@ else:
     print(f"Число {SOME_NUMBER2} не кратно 3")
 
 # 6. Коллекции данных
+
+# Задача 1
+some_numbers_list = [1, 2, 3]
+some_numbers_list.append(4)
+print(some_numbers_list)
+
+# Задача 2
+cities = ["Moscow", "Yerevan", "London"]
+cities.remove("London")
+print(cities)
+
+# Задача 3
+cities2 = ["Moscow", "Yerevan", "London", "Paris"]
+print(cities2[2])
+
+# Задача 4
+some_numbers = [0, 1, 2, 3, 4, 5, 6, 7, 8, 9]
+print(some_numbers[3:7])
+
+# Задача 5
+some_colors = ["red", "green", "blue"]
+some_colors[1] = "yellow"
+print(some_colors)
+
+# Задача 6
+SomeAnimals = ["cat", "dog", "rabbit", "hamster"]
+len_SomeAnimals = len(SomeAnimals)
+print(len_SomeAnimals)
+print(len(SomeAnimals))
+
+# Задача 7
+new_student = {
+    "name": "Artur",
+    "age": 36
+}
+new_student["grade"] = "A"
+print(new_student)
+
+# Задача 8
+add_new_student = {
+    "name": "Ben",
+    "age": 20,
+    "grade": "B"
+}
+add_new_student["grade"] = "A"
+print(add_new_student)
+
+# Задача 9
+student_information = {
+    "name": "Lily",
+    "age": 25,
+    "grade": "A"
+}
+del student_information["age"]
+print(student_information)
+
+# Задача 10
+some_student = {
+    "name": "Lily",
+    "age": 25,
+    "grade": "A"
+}
+print(some_student["name"])
+
+# Задача 11
+student_details = {
+    "name": "Alex",
+    "age": 25,
+    "grade": "A"
+}
+print("grade" in student_details)
+if "grade" in student_details:
+    print(f'Ключ "grade" найден в словаре')
+else:
+    print(f'Ключ "grade" не найден в словаре')
+
+# Задача 12
+edit_student_information = {
+    "name": "Masha",
+    "adress": {
+        "city": "Moscow",
+        "street": "Nikolskaya"
+    }
+}
+edit_student_information["adress"]["city"] = "Saint Petersburg"
+print(edit_student_information)
+
+# Задача 13
+student_grade_information = {
+    "name": "Kirill",
+    "grades": [75, 82, 90]
+}
+student_grade_information["grades"][0] = 85
+print(student_grade_information)
+
+# Задача 14
+new_student_list = [
+    {
+    "name": "Vasya",
+    "age": 26
+    },
+    {
+    "name": "Galya",
+    "age": 27
+    }
+]
+new_student_list[1]["age"] = 28
+print(new_student_list)
+
+# Задание 15
+colors_list = ("red", "green", "blue")
+print("green" in colors_list)
+print(len(colors_list))
