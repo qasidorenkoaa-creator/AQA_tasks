@@ -1,6 +1,7 @@
+from datetime import datetime
+
 def user_bio ():
     year_birth = input("Введите год вашего рождения: ")
-    from datetime import datetime
     current_year = datetime.now().year
     age = int(current_year) - int(year_birth)
     print(f"Ваш возраст: {age}")

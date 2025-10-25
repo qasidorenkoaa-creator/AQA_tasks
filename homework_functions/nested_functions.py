@@ -12,7 +12,7 @@ def calculator():
                 print("Ошибка! Допускается ввод только чисел. Попробуйте ещё раз.")
 
     while True:
-        value = input("Введите первое число: ")
+        value = input("Введите второе число: ")
         try:
             number2 = int(value)
             break

@@ -5,6 +5,7 @@ def bubble_sort(numbers):
             if numbers[index] > numbers[index + 1]:
                 numbers[index], numbers[index + 1] = numbers[index + 1], numbers[index]
     return numbers
+
 input_str = input("Введите числа через запятую: ")
 numbers = [int(num.strip()) for num in input_str.split(",")]
 sorted_numbers = bubble_sort(numbers)
