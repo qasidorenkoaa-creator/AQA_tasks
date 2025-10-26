@@ -22,4 +22,5 @@ greet_user(user_name)
 
 first = input("Введите первое число: ")
 second = input("Введите второе число: ")
+
 calculate_sum(first, second)

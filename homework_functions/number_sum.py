@@ -10,6 +10,7 @@ def some_numbers ():
         total += initial_num
         initial_num += 1
     print("Сумма чисел:", total)
+
 some_numbers ()
 
 # второй способ
@@ -21,4 +22,5 @@ def some_numbers():
         print(initial_num, end=" ")
         total += initial_num
     print(f"\nСумма чисел: {total}")
+
 some_numbers()

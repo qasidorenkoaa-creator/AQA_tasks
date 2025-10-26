@@ -3,4 +3,5 @@ def multiplication_table (table_numbers):
     for multiplier in table_numbers:
         table_strings = " ".join(str(multiplier * n) for n in table_numbers)
         print(table_strings)
+
 multiplication_table (table_numbers)

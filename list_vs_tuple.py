@@ -1,5 +1,6 @@
 some_numbers_l = [4, 7, 9, 2, 5]
 print("Исходный список:", some_numbers_l)
+
 some_numbers_t = (4, 7, 9, 2, 5)
 print("Исходный кортеж:", some_numbers_t)
 

@@ -9,4 +9,5 @@ def bubble_sort(numbers):
 input_str = input("Введите числа через запятую: ")
 numbers = [int(num.strip()) for num in input_str.split(",")]
 sorted_numbers = bubble_sort(numbers)
+
 print("Отсортированный список:", ", ".join(str(num) for num in sorted_numbers))

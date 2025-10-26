@@ -11,4 +11,5 @@ def check_triangle():
             print("Результат: Треугольник разносторонний")
     else:
         print("Треугольник не возможно построить")
+
 check_triangle()
