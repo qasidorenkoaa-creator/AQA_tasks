@@ -1,6 +1,5 @@
 def is_even(number):
-    status = "четным" if number % 2 == 0 else "нечетным"
-    return status
+    return "четным" if number % 2 == 0 else "нечетным"
 
 number1 = 4
 number2 = 7

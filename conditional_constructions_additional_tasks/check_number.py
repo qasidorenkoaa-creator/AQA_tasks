@@ -4,11 +4,13 @@ def check_number(number):
             return "положительное и четное"
         else:
             return "положительное и нечетное"
+    elif number == 0:
+        return ""
     else:
         return "отрицательное"
 
 
-number1 = 8
+number1 = 0
 number2 = -5
 
 status1 = check_number(number1)

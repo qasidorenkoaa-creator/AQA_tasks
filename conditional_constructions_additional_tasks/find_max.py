@@ -10,3 +10,14 @@ b = 9
 result = find_max(a, b)
 
 print(f"Максимальное из чисел {a} и {b}: {result}")
+
+# способ 2
+def find_max(a, b):
+    return a, b
+
+a = 5
+b = 9
+
+result = max(a, b)
+
+print(f"Максимальное из чисел {a} и {b}: {result}")

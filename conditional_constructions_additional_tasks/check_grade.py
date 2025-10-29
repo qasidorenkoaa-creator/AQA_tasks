@@ -5,9 +5,10 @@ def check_grade(score):
         return "Хорошо"
     elif 50 <= score <= 74:
         return "Удовлетворительно"
-    else:
-        score < 50
+    elif score < 50:
         return "Неудовлетворительно"
+    else:
+        return "Сверх нормы"
 
 score = 85
 
